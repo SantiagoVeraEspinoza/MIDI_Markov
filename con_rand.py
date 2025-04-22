@@ -24,4 +24,4 @@ def rand(low, high):
 def rand_normal():
     global X_N
 
-    return math.trunc((rand(0, 100) / 100) * 100) / 100
+    return math.trunc((rand(0, 100) / 100) * 10000) / 10000
