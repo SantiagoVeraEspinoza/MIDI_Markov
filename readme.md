@@ -1,3 +1,31 @@
+# Instalación
+
+1. **Clona este repositorio desde GitHub:**
+
+   ```bash
+   git clone https://github.com/SantiagoVeraEspinoza/MIDI_Markov.git
+   cd MIDI_Markov
+   ```
+
+2. Crea un ambiente virtual de python
+
+    ```
+    python -m venv .venv
+    source .venv/bin/activate  # En Windows usa: venv\Scripts\activate
+    ```
+
+3. Instala las dependencias
+
+    ```
+    python -m pip install -r requirements.txt
+    ```
+
+4. Ejecuta main.py
+
+    ```
+    python main.py
+    ```
+
 # Generador de Melodías con Cadenas de Markov 🎵
 
 Este proyecto utiliza una **cadena de Markov** para generar melodías musicales a partir de un conjunto de notas y una matriz de transición que define la probabilidad de pasar de una nota a otra. La melodía es reproducida mediante generación de tonos con frecuencias y duraciones definidas para cada nota.
