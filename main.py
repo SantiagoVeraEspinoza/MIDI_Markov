@@ -77,4 +77,8 @@ MELODY_LENGHT = 30
 for n in range(MELODY_LENGHT):
     MELODY.append(get_next_note(CURR_NOTE))
 
+for note in MELODY:
+    print(note, end=' ')
+print()
+
 midi.generate(MELODY)
