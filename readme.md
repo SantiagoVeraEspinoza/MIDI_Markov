@@ -26,6 +26,8 @@
     python main.py
     ```
 
+5. Ejecuta melody.mid en algún reproductor de MIDI
+
 # Generador de Melodías con Cadenas de Markov 🎵
 
 Este proyecto utiliza una **cadena de Markov** para generar melodías musicales a partir de un conjunto de notas y una matriz de transición que define la probabilidad de pasar de una nota a otra. La melodía es reproducida mediante generación de tonos con frecuencias y duraciones definidas para cada nota.
